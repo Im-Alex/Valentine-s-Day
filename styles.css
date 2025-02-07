@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #d32f2f;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .yes-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .gif_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  /* Contenedor del login */
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Estilo del título */
+h2 {
+    font-size: 2em;
+    color: #d32f2f;
+}
+
+/* Estilos para el input */
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 2px solid #d32f2f;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Efecto al enfocar el input */
+input:focus {
+    border-color: #a82c6b;
+}
+
+/* Botón de login */
+button {
+    font-size: 1.5em;
+    padding: 12px 25px;
+    margin-top: 10px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efecto hover en el botón */
+button:hover {
+    background-color: #a82c6b;
+    transform: scale(1.05);
+}
+
+/* Mensaje de error */
+#error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
